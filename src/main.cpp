@@ -1,7 +1,17 @@
 #include <stdio.h>
 #include "SDL2/SDL.h"
 
+/*
+-Load up window settings from a file containing the settings.
+-Multiple key keybinds. E.G alt+f4 (tho it might already work because of the OS).
+-Reading from a text file and storing the information (For now we can printf it to the console, we also going to need another library).
+-Font rendering the text (We are going to need another library for this).
+*/
+
+
+
 int main(void) {
+    printf("DEBUG:\n");
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
 	printf("SDL_Init failed to initialize.\n");
 	return 1;
