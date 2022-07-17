@@ -1,1 +1,1 @@
-clang main.cpp -o ../bin/emendo
+clang *.cpp -o ../bin/emendo -lSDL2 -lstdc++
